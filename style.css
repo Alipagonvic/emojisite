@@ -1,1 +1,32 @@
 h1{color:pink;}
+
+:root{
+    --color-blue: #1ea1f2;
+    --color-gray: #f5f8fa;
+}
+
+nav {
+    height: 50px;
+    background-color: var(--color-blue);
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+}
+
+nav span {
+    color: white;
+}
+
+.p-x-100 {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.p-y-100 {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.background-gray {
+    background-color: var(--color-gray);
+}
